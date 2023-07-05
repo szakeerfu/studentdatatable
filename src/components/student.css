@@ -1,0 +1,42 @@
+/* StudentForm.css */
+
+.student-form {
+    margin-bottom: 20px;
+  }
+  
+  .student-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .student-form input[type='text'],
+  .student-form input[type='number'] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .student-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .student-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
